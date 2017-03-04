@@ -8,5 +8,5 @@
       hist(subsetdata$Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (killowatts)")
 
 # create png file
-      dev.copy(png, file="Plot1.png")
+      dev.copy(png, file="Plot1.png", width=480, height=480)
       dev.off()  

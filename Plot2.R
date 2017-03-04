@@ -12,5 +12,5 @@
       plot(subsetdata$Global_active_power~subsetdata$Datetime, type="l", ylab="Global Active Power (kilowatts)", xlab="")
       
 # create png file
-      dev.copy(png, file="Plot2.png")
+      dev.copy(png, file="Plot2.png", width=480, height=480)
       dev.off()  

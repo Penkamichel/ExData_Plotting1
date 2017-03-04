@@ -19,6 +19,6 @@
       plot(subsetdata$Global_reactive_power~subsetdata$Datetime, type="l", ylab="Global_reactive_power", xlab="datetime")
       
 # create png file
-      dev.copy(png, file="Plot4.png")
+      dev.copy(png, file="Plot4.png", width=480, height=480)
       dev.off()
       par(mfrow=c(1,1))
